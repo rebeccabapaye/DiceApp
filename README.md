@@ -1,6 +1,6 @@
 # DiceApp
 
-Application for dice rolling simulations that generates an ASCII diagram of the dice faces. Based on source code from [this Real Python tutorial](https://realpython.com/python-dice-roll/).
+Simple TUI (text-based user interface) application for dice rolling simulations. Generates an ASCII diagram of the dice faces. Based on source code from [this Real Python tutorial](https://realpython.com/python-dice-roll/).
 
 ## How It Works
 
