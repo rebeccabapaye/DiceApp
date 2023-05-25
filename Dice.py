@@ -82,15 +82,6 @@ def generate_dice_faces_diagram(dice_values):
     """Return an ASCII diagram of dice faces from `dice_values`.
 
     The string returned contains an ASCII representation of each die.
-    For example, if `dice_values = [4, 1, 3, 2]` then the string
-    returned looks like this:
-
-    ~~~~~~~~~~~~~~~~~~~ RESULTS ~~~~~~~~~~~~~~~~~~~
-    ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
-    │  ●   ●  │ │         │ │  ●      │ │  ●      │
-    │         │ │    ●    │ │    ●    │ │         │
-    │  ●   ●  │ │         │ │      ●  │ │      ●  │
-    └─────────┘ └─────────┘ └─────────┘ └─────────┘
     """
     dice_faces = _get_dice_faces(dice_values)
     dice_faces_rows = _generate_dice_faces_rows(dice_faces)
